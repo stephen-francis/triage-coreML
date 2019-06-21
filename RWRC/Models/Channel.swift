@@ -32,7 +32,6 @@ struct Channel {
   
   let id: String?
   let name: String
-  //test
   
   init(name: String) {
     id = nil
