@@ -25,6 +25,7 @@
 		48AC74C720A66C2A00AA1788 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48AC74C620A66C2A00AA1788 /* AppDelegate.swift */; };
 		48AC74CE20A66C2C00AA1788 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 48AC74CD20A66C2C00AA1788 /* Assets.xcassets */; };
 		48AC74D120A66C2C00AA1788 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 48AC74CF20A66C2C00AA1788 /* LaunchScreen.storyboard */; };
+		C2D0281122BD67310091669C /* SymptomToDisease.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = C2D0281022BD67310091669C /* SymptomToDisease.mlmodel */; };
 		D9BDDBE09FF401D0C67E99FE /* Pods_RWRC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 94984FD704383917A0A022C8 /* Pods_RWRC.framework */; };
 /* End PBXBuildFile section */
 
@@ -52,6 +53,7 @@
 		48AC74D220A66C2C00AA1788 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6B46E44FFE5424DB91C4A5AE /* Pods-RWRC.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RWRC.release.xcconfig"; path = "Pods/Target Support Files/Pods-RWRC/Pods-RWRC.release.xcconfig"; sourceTree = "<group>"; };
 		94984FD704383917A0A022C8 /* Pods_RWRC.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RWRC.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C2D0281022BD67310091669C /* SymptomToDisease.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; name = SymptomToDisease.mlmodel; path = RWRC/SymptomToDisease.mlmodel; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -152,6 +154,7 @@
 		48AC74DC20A66CB800AA1788 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				C2D0281022BD67310091669C /* SymptomToDisease.mlmodel */,
 				4814E1F820CFF62A00E38239 /* GoogleService-Info.plist */,
 				48AC74CD20A66C2C00AA1788 /* Assets.xcassets */,
 				48AC74D220A66C2C00AA1788 /* Info.plist */,
@@ -308,6 +311,7 @@
 				4859775520A68BF500429CB3 /* AppController.swift in Sources */,
 				481A352E20A8E956008CD16B /* UICollectionView+Additions.swift in Sources */,
 				4859775020A68AF800429CB3 /* LoginViewController.swift in Sources */,
+				C2D0281122BD67310091669C /* SymptomToDisease.mlmodel in Sources */,
 				4859775E20A69CD500429CB3 /* UIView+Additions.swift in Sources */,
 				48AC74C720A66C2A00AA1788 /* AppDelegate.swift in Sources */,
 				4859776420A7A1BD00429CB3 /* DatabaseRepresentation.swift in Sources */,
